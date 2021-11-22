@@ -61,10 +61,10 @@ void B(int mat[][N],int a,int b)
     algo(temp,N);
     if(temp[a][b]!=max && a!=b)
     {
-        printf("True \n");
+        printf("True\n");
         return;
     }
-    printf("False \n");
+    printf("False\n");
 }
 void C(int mat[][N],int a,int b)
 {
@@ -79,10 +79,10 @@ void C(int mat[][N],int a,int b)
     algo(temp,N);
     if(temp[a][b] == max || a == b)
     {
-        printf("%d \n",-1);
+        printf("%d\n",-1);
         return;
     }
-    printf("%d \n",temp[a][b]);
+    printf("%d\n",temp[a][b]);
     return;
 }
 
