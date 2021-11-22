@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include"my_mat.h"
 #define N 10
-void main()
+int main()
 {
     char b;
     int a[10][10];
@@ -31,9 +31,8 @@ void main()
         }
         if(b == 'D')
         {
+            printf("\n");
             break;
         }
-        
-    }
-    
+    }    
 }
