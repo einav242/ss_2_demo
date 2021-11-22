@@ -31,7 +31,6 @@ int main()
         }
         if(b == 'D')
         {
-            printf("\n");
             break;
         }
     }    
